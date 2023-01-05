@@ -1,0 +1,162 @@
+body 
+{  
+    position: fixed;
+    height: 100vh;  
+    width: 100vw;    
+	background-color: #ededed;    
+    font-family: 'Dosis', sans-serif;
+}
+
+body #leaf2
+{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+body #leaf3
+{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+body #leaf1
+{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+body #leaf4
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+main 
+{
+    height: 80vh;
+    width: 50vw;
+    padding: 30px 30px 30px 30px;
+    margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: white;    
+    outline: 7px double goldenrod;
+    outline-offset: -20px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+#leaf2
+{
+    height: 80%;
+}
+
+#leaf1
+{
+    height: 90%;
+}
+
+#leaf3
+{
+    height: 50%;
+}
+
+#leaf4
+{
+    height: 80%;
+}
+
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+  
+.header-left 
+{
+    display: flex;
+    align-items: center;
+}
+  
+.logo 
+{
+    width: 50px;
+    height: 50px;
+    transform: scaleX(-1);
+    transform: scaleY(-1);    
+    margin-right: 10px;
+}
+  
+.title 
+{
+    font-size: 24px;
+    color: #74DAAF;
+}
+  
+.header-right 
+{
+    display: flex;
+    align-items: center;
+}
+
+.menu 
+{
+    display: flex;
+    align-items: center;
+}
+  
+.menu a 
+{
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu a:active
+{
+    font-style: bold;
+}
+  
+.menu a:hover 
+{
+    color: #74DAAF;
+}
+
+.small_body 
+{
+    position: relative;
+    height: calc(80vh - 50px);
+    padding: 0px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.small_body text
+{
+    text-align: justify;
+}
+
+#photo
+{   
+    border-radius: 50%;
+    width: 100%;
+    border: 7px solid goldenrod;
+}
+
+mark
+{
+    color:#38a376;
+    background-color: transparent;
+}
